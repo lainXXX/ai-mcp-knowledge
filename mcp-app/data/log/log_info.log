@@ -1,0 +1,109 @@
+25-05-14.10:06:15.684 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 14076 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:06:15.686 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:06:18.194 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:06:18.201 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:06:18.201 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:06:19.551 [main            ] INFO  OllamaTest             - Started OllamaTest in 4.474 seconds (process running for 5.952)
+25-05-14.10:10:33.885 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 11992 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:10:33.887 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:10:35.452 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:10:35.455 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:10:35.455 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:10:36.170 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.73 seconds (process running for 3.87)
+25-05-14.10:13:36.380 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 23960 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:13:36.382 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:13:38.031 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:13:38.035 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:13:38.035 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:13:38.820 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.883 seconds (process running for 4.088)
+25-05-14.10:18:04.130 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 5112 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:18:04.136 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:18:05.723 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:18:05.727 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:18:05.728 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:18:06.349 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.654 seconds (process running for 3.867)
+25-05-14.10:18:22.316 [main            ] INFO  OllamaTest             - 测试结果(call) : {"metadata":{"empty":false,"id":"","model":"deepseek-r1:1.5b","rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"$ref":"$.metadata.rateLimit.requestsReset"}},"usage":{"promptTokens":6,"completionTokens":17,"totalTokens":23,"generationTokens":17}},"result":{"metadata":{"contentFilters":[],"empty":true,"finishReason":"stop"},"output":{"media":[],"messageType":"ASSISTANT","metadata":{"messageType":"ASSISTANT"},"text":"<think>\n\n</think>\n\n1 + 1 等于 **2**。"{"$ref":"$.metadata.rateLimit.requestsReset.usage.result.metadata.contentFilters.output.media"}}},"results":[{"$ref":"$.metadata.rateLimit.requestsReset.usage.result"}]}
+25-05-14.10:23:21.128 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 24168 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:23:21.130 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:23:22.714 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:23:22.719 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:23:22.719 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:23:23.469 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.798 seconds (process running for 4.099)
+25-05-14.10:25:07.553 [main            ] INFO  OllamaTest             - 测试结果(images):{"metadata":{"empty":false,"id":"","model":"deepseek-r1:1.5b","rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"$ref":"$.metadata.rateLimit.requestsReset"}},"usage":{"promptTokens":23,"completionTokens":472,"totalTokens":495,"generationTokens":472}},"result":{"metadata":{"contentFilters":[],"empty":true,"finishReason":"stop"},"output":{"media":[],"messageType":"ASSISTANT","metadata":{"messageType":"ASSISTANT"},"text":"<think>\n好的，用户让我描述一张图片的主要内容以及各物品的用途。首先，我需要想象一下，用户提供的“img-0”这个图片是什么样子的。因为没有实际图像，我得先猜测或者假设一些常见的场景。\n\n假设这是个厨房中的生活图景，比如一把刀、碗筷、菜刀等。那我可能会说，这是一张厨房温馨的家庭照片，展示了各种厨房用品，可能包含了水壶、炒菜锅、小铲子这些常见的厨房设备。它们用来进行烹饪和日常生活的活动，营造出一个和谐的厨房环境。\n\n接着，我要考虑用户可能是哪个年龄段的人。如果是年轻人，他们可能会更多关注物品的功能和使用场景；如果是中年或老年人，可能更侧重于物品的整体形象和寓意。因此，在描述用途时，需要根据年龄群体来调整内容。\n\n另外，我还需要思考用户可能没有明确表达的需求。或许他们希望图片不仅列出物品，还能传达出一种温馨的家庭氛围，或者某种情感的信息。所以，在描述时，可以加入一些关于和谐、温馨和家庭氛围的内容，以增强整体的感染力。\n\n在整理信息的时候，要确保语言简洁明了，同时涵盖主要的用途，但也要有适当的扩展，让内容更有深度。这样用户不仅能够找到所需的信息，还能从中获得更多的思考空间，提升他们的理解程度。\n</think>\n\n这张图片描述的是一个温馨的家庭场景，包含了一把刀、碗筷、菜刀等厨房用品，并且描绘了一个整洁的家庭氛围。主要用途可能是用来记录家庭生活的日常物品和情感。\n\n具体来说，这是一张展示家庭日常活动的厨房照片，可能包括以下几个方面：\n\n1. **厨房用品**： depicted包括切菜刀、炒菜锅、水壶、碗筷这些常见的厨房设备，以及一些生活用品如杯子、碗、手机等。\n\n2. **日常生活场景**：描绘了几个家庭成员在厨房中忙碌的身影，比如爸爸在用切菜刀处理菜，妈妈在炒菜时使用炒菜锅，小明和小红在厨房里的互动。\n\n3. **温馨的家庭氛围**：整体上展现了一个温馨和谐的家庭环境，可能带有温馨、浪漫或家常的意味。\n\n如果需要更详细的描述，请提供图片内容。"{"$ref":"$.metadata.rateLimit.requestsReset.usage.result.metadata.contentFilters.output.media"}}},"results":[{"$ref":"$.metadata.rateLimit.requestsReset.usage.result"}]}
+25-05-14.10:31:10.815 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 2944 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:31:10.817 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:31:12.598 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:31:12.602 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:31:12.602 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:31:13.351 [main            ] INFO  OllamaTest             - Started OllamaTest in 3.137 seconds (process running for 4.803)
+25-05-14.10:35:53.812 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 6420 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:35:53.815 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:35:55.506 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:35:55.510 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:35:55.511 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:35:56.309 [main            ] INFO  OllamaTest             - Started OllamaTest in 3.062 seconds (process running for 4.455)
+25-05-14.10:36:14.301 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 11436 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:36:14.302 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:36:16.075 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:36:16.079 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:36:16.080 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:36:16.901 [main            ] INFO  OllamaTest             - Started OllamaTest in 3.127 seconds (process running for 4.526)
+25-05-14.10:38:51.651 [main            ] INFO  OllamaTest             - 测试结果(images):{"metadata":{"empty":false,"id":"","model":"deepseek-r1:1.5b","rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"$ref":"$.metadata.rateLimit.requestsReset"}},"usage":{"promptTokens":23,"completionTokens":492,"totalTokens":515,"generationTokens":492}},"result":{"metadata":{"contentFilters":[],"empty":true,"finishReason":"stop"},"output":{"media":[],"messageType":"ASSISTANT","metadata":{"messageType":"ASSISTANT"},"text":"<think>\n好，我需要分析用户提供的这个关于如何描述一张图片及其主要内容和物品用途的问题。首先，我要明确用户的需求是什么。用户希望我能详细地描述图片，不仅要提到图片的内容，还要解释每个物品或细节可能被用在哪里。\n\n接下来，我想考虑一下用户可能的身份。他们可能是学生、设计师或者普通消费者，想要了解如何更好地描述图片并理解其潜在用途。因此，我的回答需要涵盖这些方面，让用户能够获得全面的信息。\n\n然后，我会分析图片中的元素，比如颜色、形状、数字或符号等，这些都是描述的基础。此外，物品的可能用途部分也很重要，因为这可以扩展到实际应用中，如物品名、标识或装饰品使用场景。\n\n我还需要考虑如何组织内容，让回答既详细又易于理解。分点列出可能更有条理，同时保持每个部分的信息量适中。这样用户可以看到每一种物品的具体用途，从而更好地理解和利用这张图片。\n\n最后，我会确保使用简单明了的语言，避免过于专业的术语，以便所有读者都能轻松理解和掌握。这不仅能提升回答的专业性，还能增强其实用性。\n</think>\n\n好的！我将尝试描述这张图片的主要内容，并解释其中的物品可能的用途。由于我没有看到具体图片，我只能基于你提供的信息进行推理和推测。\n\n### 图像内容：\n假设这张图片中的主要元素包括以下几个方面：\n\n1. **颜色与图案**：图片可能存在多种颜色或复杂的图案设计，这些元素通常在装饰、装饰品中使用。\n2. **数字或符号**：可能包含多个数字、符号或代码，常用于标识、编号或其他表示特定信息的用途。\n3. **形状和线条**：图形元素如长方形、圆形、菱形等，常见于家具、艺术品或装饰画中。\n\n### 物品可能的用途：\n根据这张图片中的元素，我们可以推测以下物品：\n\n1. **装饰品**：数字、颜色图案或符号可能是装饰地板、墙面或天花板上的装饰物。\n2. **标识**：多个数字或符号组合可能用于商品编号、型号或产品信息上的标识。\n3. **艺术作品**：复杂图案或多色元素可能出现在艺术品如画作、雕塑或抽象艺术中。\n\n如果你能提供更多细节，我可以更准确地描述这张图片的具体用途。希望这些建议对你有帮助！"{"$ref":"$.metadata.rateLimit.requestsReset.usage.result.metadata.contentFilters.output.media"}}},"results":[{"$ref":"$.metadata.rateLimit.requestsReset.usage.result"}]}
+25-05-14.10:43:34.473 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 14180 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:43:34.475 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:43:36.167 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:43:36.171 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:43:36.171 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:43:36.826 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.818 seconds (process running for 4.185)
+25-05-14.10:44:32.333 [main            ] INFO  OllamaTest             - 测试结果(images):{"metadata":{"empty":false,"id":"","model":"deepseek-r1:1.5b","rateLimit":{"requestsLimit":0,"requestsRemaining":0,"requestsReset":{"nano":0,"negative":false,"seconds":0,"units":["SECONDS","NANOS"],"zero":true},"tokensLimit":0,"tokensRemaining":0,"tokensReset":{"$ref":"$.metadata.rateLimit.requestsReset"}},"usage":{"promptTokens":14,"completionTokens":278,"totalTokens":292,"generationTokens":278}},"result":{"metadata":{"contentFilters":[],"empty":true,"finishReason":"stop"},"output":{"media":[],"messageType":"ASSISTANT","metadata":{"messageType":"ASSISTANT"},"text":"<think>\n嗯，用户让我描述一张图片的主要内容。那我得先想想用户具体想要什么信息。他们可能只是想简明扼要地复述图片，或者需要更详细的内容。也有可能是用于某种展示或报告中。\n\n首先，我应该回顾一下图片的基本信息，比如背景、主题和整体结构。背景可能是自然景色，比如山川、河流，或者是人类居住的区域。主体部分可能是一些元素，如树木、动物、植物等。然后，我可以考虑是否有任何颜色对比或者光影效果，这些都影响了整体的感觉。\n\n接下来，我需要判断图片是否有特定的主题或情感。比如，是不是在描述自然美景，还是在展现人文风情？不同的主题会从文字上体现出不同的内容。最后，总结一下图片的主要信息，确保涵盖所有关键点，让用户能够全面了解图片所传达的内容。\n</think>\n\n这张图片的主体是一个充满生机的自然场景，背景是山间的青山和河流相映成趣的景致。主要元素包括茂密的树木、白色的野花以及几只正在奔跑的小鸟。整体给人一种清新、动态的感觉，色彩鲜明，充满了活力和生机。从结构上看，画面布局简单而有层次感，主体清晰，细节丰富。整张图片展现了山林中的自然之美，充满了生动的画面感和情感。"{"$ref":"$.metadata.rateLimit.requestsReset.usage.result.metadata.contentFilters.output.media"}}},"results":[{"$ref":"$.metadata.rateLimit.requestsReset.usage.result"}]}
+25-05-14.10:48:56.286 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 8404 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:48:56.288 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:48:58.209 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:48:58.214 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:48:58.214 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:48:58.986 [main            ] INFO  OllamaTest             - Started OllamaTest in 3.225 seconds (process running for 4.747)
+25-05-14.10:58:06.038 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 3292 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.10:58:06.041 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.10:58:07.587 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.10:58:07.590 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.10:58:07.590 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.10:58:08.195 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.561 seconds (process running for 3.819)
+25-05-14.10:58:14.444 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-05-14.10:58:15.843 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@59c4d5e2
+25-05-14.10:58:15.844 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-05-14.10:58:16.486 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-05-14.10:58:16.738 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-05-14.11:02:16.134 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 12824 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.11:02:16.136 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.11:02:17.670 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.11:02:17.675 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.11:02:17.675 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.11:02:18.380 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.656 seconds (process running for 3.845)
+25-05-14.11:02:21.389 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-05-14.11:02:22.120 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@777f7285
+25-05-14.11:02:22.121 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-05-14.11:02:22.414 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-05-14.11:02:22.747 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-05-14.11:04:22.953 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 21304 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.11:04:22.955 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.11:04:24.487 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.11:04:24.491 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.11:04:24.491 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.11:04:25.210 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.671 seconds (process running for 3.841)
+25-05-14.11:04:28.375 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-05-14.11:04:29.132 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@45e95838
+25-05-14.11:04:29.134 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-05-14.11:04:29.487 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-05-14.11:04:29.828 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.
+25-05-14.11:11:03.829 [main            ] INFO  OllamaTest             - Starting OllamaTest using Java 17.0.6 with PID 15468 (started by aaa in D:\Develop\project\ai-mcp-knowledge\mcp-app)
+25-05-14.11:11:03.831 [main            ] INFO  OllamaTest             - The following 1 profile is active: "dev"
+25-05-14.11:11:05.377 [main            ] INFO  PgVectorStore          - Using the vector table name: vector_store_ollama_deepseek. Is empty: false
+25-05-14.11:11:05.380 [main            ] INFO  PgVectorStore          - Initializing PGVectorStore schema for table: vector_store_ollama_deepseek in schema: public
+25-05-14.11:11:05.380 [main            ] INFO  PgVectorStore          - vectorTableValidationsEnabled false
+25-05-14.11:11:05.988 [main            ] INFO  OllamaTest             - Started OllamaTest in 2.585 seconds (process running for 3.795)
+25-05-14.11:11:09.796 [main            ] INFO  HikariDataSource       - HikariCP - Starting...
+25-05-14.11:11:10.660 [main            ] INFO  HikariPool             - HikariCP - Added connection org.postgresql.jdbc.PgConnection@1b84fd5
+25-05-14.11:11:10.662 [main            ] INFO  HikariDataSource       - HikariCP - Start completed.
+25-05-14.11:11:10.991 [main            ] INFO  OllamaTest             - 上传成功
+25-05-14.11:11:11.023 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown initiated...
+25-05-14.11:11:11.336 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariCP - Shutdown completed.

@@ -28,7 +28,7 @@ spring:
       connection-test-query: SELECT 1
   ai:
     ollama:
-      base: http://117.72.210.49:11434
+      base-url: http://117.72.210.49:11434
       embedding:
         options:
           num-batch: 512
