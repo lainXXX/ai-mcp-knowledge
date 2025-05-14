@@ -12,6 +12,7 @@
         <module>mcp-app</module>
         <module>mcp-api</module>
         <module>mcp-trigger</module>
+        <module>ai-mcp-server-csdn</module>
     </modules>
 
     <properties>

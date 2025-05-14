@@ -27,6 +27,10 @@ spring:
       # 连接测试query
       connection-test-query: SELECT 1
   ai:
+    mcp:
+      client:
+        stdio:
+          servers-configuration: classpath:/config/mcp-servers-config.json
     ollama:
       base-url: http://117.72.210.49:11434
       embedding:
