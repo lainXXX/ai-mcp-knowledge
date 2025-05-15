@@ -1,0 +1,31 @@
+csdn:
+  api:
+    categories: Java场景面试宝典
+
+spring:
+  application:
+    name: mcp-server-csdn
+
+  ai:
+    mcp:
+      server:
+        name: ${spring.application.name}
+        version: 1.0.0
+
+  main:
+    banner-mode: off
+    web-application-type: none  # 不需要web功能，因为使用stdio通信
+
+logging:
+  pattern:
+    console:  # 留空，禁止控制台输出
+  file:
+    name: data/log/${spring.application.name}.log  # 日志重定向到文件
+
+server:
+  port: 8101
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
