@@ -6,6 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.ollama.api.OllamaOptions;
+import org.springframework.ai.openai.OpenAiChatOptions;
 import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -25,7 +26,9 @@ public class MCPTest {
         String userInput = "有哪些工具可以使用";
         var chatClient = chatClientBuilder
                 .defaultTools(tools)
-                .defaultOptions(OllamaOptions.builder().model("deepseek-r1:1.5b").build())
+                .defaultOptions(OpenAiChatOptions.builder()
+                        .model("gpt-4o")
+                        .build())
                 .build();
 
         System.out.println("\n>>> QUESTION: " + userInput);
@@ -39,7 +42,9 @@ public class MCPTest {
 
         var chatClient = chatClientBuilder
                 .defaultTools(tools)
-                .defaultOptions(OllamaOptions.builder().model("deepseek-r1:1.5b").build())
+                .defaultOptions(OpenAiChatOptions.builder()
+                        .model("gpt-4o")
+                        .build())
                 .build();
 
         System.out.println("\n>>> QUESTION: " + userInput);
