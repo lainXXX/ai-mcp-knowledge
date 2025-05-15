@@ -1,0 +1,35 @@
+server:
+  #  port: 7071
+  servlet:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+spring:
+  application:
+    name: mcp-server-weixin
+  main:
+    banner-mode: off
+    web-application-type: none
+  ai:
+    mcp:
+      server:
+        name: ${spring.application.name}
+        version: 1.0.0
+
+weixin:
+  api:
+    original_id: gh_055af82982d7
+    app-id: wxd2ad4769817d3daf
+    app-secret: ccdbcb6a93b444f1ebc3bdc6625dc18a
+    template_id: N7biUx58YdjTZgSgITJ4ooeoXzvvyrtfN97EeOeZMHk
+    touser: oElx26a5vWVLG_-AZ_e4ilgw8yK0
+
+logging:
+  pattern:
+    console:
+  file:
+    name: data/log/${spring.application.name}.log
+
+
