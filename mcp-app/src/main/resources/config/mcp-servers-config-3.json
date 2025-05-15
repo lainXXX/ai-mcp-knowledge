@@ -5,9 +5,9 @@
       "args": [
         "-Dspring.ai.mcp.server.stdio=true",
         "-jar",
-        "填写你的路径/Users/fuzhengwei/Applications/apache-maven-3.8.4/repository/cn/bugstack/mcp/mcp-server-csdn/1.0.0/mcp-server-csdn-1.0.0.jar",
+        "D:\\Develop\\JAVA\\Tools\\apache-maven-3.8.8\\repo\\top\\javarem\\ai-mcp-server-csdn\\1.0\\ai-mcp-server-csdn-1.0.jar",
         "--csdn.api.categories=Java场景面试宝典",
-        "--csdn.api.cookie=dc_sid=4f39db19db5e07b3712c8252f5192a49填写你的cookie"
+        "--csdn.api.cookie=dc_sid=e3cce4c923dafa0a9e8d11a9d6102c50; fid=20_72602451227-1747208643691-190344; uuid_tt_dd=11_89873883056-1747208643693-953086; dc_session_id=11_1747208643693.691474; c_first_ref=default; c_segment=14; SESSION=d671786a-451a-48f8-a30e-114154a63cda; creative_btn_mp=1; Hm_lvt_6bcd52f51e9b3dce32bec4a3997715ac=1747208647; HMACCOUNT=328E28A5378A4D37; hide_login=1; is_advert=1; UserName=m0_75125940; UserInfo=a0ecfad0247146078fa91e28850b65f7; UserToken=a0ecfad0247146078fa91e28850b65f7; UserNick=m0_75125940; AU=55D; UN=m0_75125940; BT=1747208689470; p_uid=U010000; csdn_newcert_m0_75125940=1; creativeSetApiNew=%7B%22toolbarImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20231011044944.png%22%2C%22publishSuccessImg%22%3A%22https%3A//img-home.csdnimg.cn/images/20240229024608.png%22%2C%22articleNum%22%3A0%2C%22type%22%3A0%2C%22oldUser%22%3Afalse%2C%22useSeven%22%3Atrue%2C%22oldFullVersion%22%3Afalse%2C%22userName%22%3A%22m0_75125940%22%7D; c_first_page=https%3A//editor.csdn.net/md/%3FarticleId%3D147956533; c_dsid=11_1747209419267.685576; Hm_lpvt_6bcd52f51e9b3dce32bec4a3997715ac=1747209512; c_pref=https%3A//mp.csdn.net/mp_blog/creation/success/147956533; c_ref=https%3A//editor.csdn.net/; c_page_id=default; log_Id_pv=15; log_Id_view=279; dc_tos=sw8rhw; log_Id_click=18"
       ]
     }
   }

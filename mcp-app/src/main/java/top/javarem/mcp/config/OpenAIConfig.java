@@ -6,8 +6,10 @@ import org.springframework.ai.chat.client.ChatClient;
 import org.springframework.ai.chat.client.DefaultChatClientBuilder;
 import org.springframework.ai.chat.client.observation.ChatClientObservationConvention;
 import org.springframework.ai.openai.OpenAiChatModel;
+import org.springframework.ai.openai.OpenAiChatOptions;
 import org.springframework.ai.openai.OpenAiEmbeddingModel;
 import org.springframework.ai.openai.api.OpenAiApi;
+import org.springframework.ai.tool.ToolCallbackProvider;
 import org.springframework.ai.transformer.splitter.TokenTextSplitter;
 import org.springframework.ai.vectorstore.SimpleVectorStore;
 import org.springframework.ai.vectorstore.pgvector.PgVectorStore;
@@ -23,7 +25,6 @@ public class OpenAIConfig {
     public TokenTextSplitter tokenTextSplitter() {
         return new TokenTextSplitter();
     }
-
 
     @Bean
     public OpenAiApi openAiApi(@Value("${spring.ai.openai.base-url}") String baseUrl, @Value("${spring.ai.openai.api-key}") String apikey) {
@@ -60,9 +61,16 @@ public class OpenAIConfig {
                 .vectorTableName("vector_store_openai")
                 .build();
     }
+
     @Bean
-    public ChatClient.Builder chatClientBuilder(OpenAiChatModel openAiChatModel) {
-        return new DefaultChatClientBuilder(openAiChatModel, ObservationRegistry.NOOP, (ChatClientObservationConvention) null);
+    public ChatClient chatClient(OpenAiChatModel openAiChatModel, ToolCallbackProvider tools) {
+        DefaultChatClientBuilder defaultChatClientBuilder = new DefaultChatClientBuilder(openAiChatModel, ObservationRegistry.NOOP, (ChatClientObservationConvention) null);
+        return defaultChatClientBuilder
+                .defaultTools(tools)
+                .defaultOptions(OpenAiChatOptions.builder()
+                        .model("gpt-4o")
+                        .build())
+                .build();
     }
 
 }

@@ -77,12 +77,6 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- sse 模式需要配置 webflux -->
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-mcp-server-webflux-spring-boot-starter</artifactId>
-        </dependency>
-
     </dependencies>
 
     <dependencyManagement>
@@ -97,33 +91,8 @@
         </dependencies>
     </dependencyManagement>
 
-    <!-- stdio 模式打开，sse 模式，注释掉。 -->
     <build>
-        <finalName>mcp-server-csdn-app</finalName>
         <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <skipTests>true</skipTests>
-                    <testFailureIgnore>false</testFailureIgnore>
-                    <includes>
-                        <include>**/*Test.java</include>
-                    </includes>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-                <version>3.4.3</version>
-                <configuration>
-                    <mainClass>cn.bugstack.mcp.server.csdn.McpServerApplication</mainClass>
-                    <layout>JAR</layout>
-                </configuration>
-            </plugin>
-        </plugins>
-<!--        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -149,7 +118,7 @@
                     </excludes>
                 </configuration>
             </plugin>
-        </plugins>-->
+        </plugins>
     </build>
 
 </project>

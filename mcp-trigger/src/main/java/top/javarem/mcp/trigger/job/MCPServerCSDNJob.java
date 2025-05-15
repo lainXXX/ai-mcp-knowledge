@@ -13,7 +13,7 @@ public class MCPServerCSDNJob {
     @Resource
     private ChatClient chatClient;
 
-    @Scheduled(cron = "0 0 * * * ?")
+    @Scheduled(cron = "0 */5 * * * ?")
     public void exec() {
         // 检查当前时间是否在允许执行的时间范围内（8点到23点之间）
         int currentHour = java.time.LocalDateTime.now().getHour();
@@ -48,7 +48,7 @@ public class MCPServerCSDNJob {
                         工具库: Apache Commons, Guava, Lombok, MapStruct, JSch, POI
                         其他: JUnit Pioneer, Dubbo, R2DBC, WebSocket
                     3. 提问的场景方案可包括但不限于；音视频场景,内容社区与UGC,AIGC,游戏与虚拟互动,电商场景,本地生活服务,共享经济,支付与金融服务,互联网医疗,健康管理,医疗供应链,企业协同与SaaS,产业互联网,大数据与AI服务,在线教育,求职招聘,智慧物流,供应链金融,智慧城市,公共服务数字化,物联网应用,Web3.0与区块链,安全与风控,广告与营销,能源与环保。                
-                    4. 按照故事场景，以严肃的面试官和搞笑的水货程序员谢飞机进行提问，谢飞机对简单问题可以回答出来，回答好了面试官还会夸赞和引导。复杂问题含糊其辞，回答的不清晰。
+                    4. 按照故事场景，以严肃的面试官和搞笑的水货程序员进行提问，谢飞机对简单问题可以回答出来，回答好了面试官还会夸赞和引导。复杂问题含糊其辞，回答的不清晰。
                     5. 每次进行3轮提问，每轮可以有3-5个问题。这些问题要有技术业务场景上的衔接性，循序渐进引导提问。最后是面试官让程序员回家等通知类似的话术。
                     6. 提问后把问题的答案详细的，写到文章最后，讲述出业务场景和技术点，让小白可以学习下来。
                                     

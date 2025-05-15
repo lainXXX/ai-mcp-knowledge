@@ -74,6 +74,12 @@
             <artifactId>fastjson</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>top.javarem</groupId>
+            <artifactId>mcp-trigger</artifactId>
+            <version>1.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
