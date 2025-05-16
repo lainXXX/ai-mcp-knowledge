@@ -12,7 +12,6 @@
         <module>mcp-app</module>
         <module>mcp-api</module>
         <module>mcp-trigger</module>
-        <module>ai-mcp-server-csdn</module>
     </modules>
 
     <properties>
@@ -46,6 +45,11 @@
             <dependency>
                 <groupId>top.javarem</groupId>
                 <artifactId>mcp-app</artifactId>
+                <version>1.0</version>
+            </dependency>
+            <dependency>
+                <groupId>top.javarem</groupId>
+                <artifactId>mcp-trigger</artifactId>
                 <version>1.0</version>
             </dependency>
         </dependencies>

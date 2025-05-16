@@ -7,13 +7,13 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
 @Slf4j
-@Service
+//@Service
 public class MCPServerCSDNJob {
 
     @Resource
     private ChatClient chatClient;
 
-    @Scheduled(cron = "0 */5 * * * ?")
+//    @Scheduled(cron = "0 */5 * * * ?")
     public void exec() {
         // 检查当前时间是否在允许执行的时间范围内（8点到23点之间）
         int currentHour = java.time.LocalDateTime.now().getHour();

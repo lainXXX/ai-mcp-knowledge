@@ -30,7 +30,8 @@ spring:
     mcp:
       client:
         stdio:
-          servers-configuration: classpath:/config/mcp-servers-config.json
+          servers-configuration: classpath:/config/mcp-servers-config-4.json
+          timeout: 60000  # 增加超时时间到60秒
     openai:
       base-url: https://api.chatanywhere.tech
       api-key: sk-tcFug1tKgUBT23NaTf2UNIqUiA0ZKmxscZx20rhaSQlLB3ME
